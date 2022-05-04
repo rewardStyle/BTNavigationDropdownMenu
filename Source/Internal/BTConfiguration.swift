@@ -34,6 +34,7 @@ final class BTConfiguration {
     var navigationBarTitleFont: UIFont
     var cellTextLabelAlignment: NSTextAlignment!
     var cellSelectionColor: UIColor?
+    var cellImage: UIImage?
     var checkMarkImage: UIImage!
     var shouldKeepSelectedCellColor: Bool!
     var arrowTintColor: UIColor?

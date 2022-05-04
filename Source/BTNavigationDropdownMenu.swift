@@ -139,6 +139,16 @@ open class BTNavigationDropdownMenu: UIView {
         }
     }
 
+    // The image of the cell
+    open var cellImage: UIImage! {
+        get {
+            return self.configuration.cellImage
+        }
+        set(value) {
+            self.configuration.cellImage = value
+        }
+    }
+
     // The checkmark icon of the cell
     open var checkMarkImage: UIImage! {
         get {

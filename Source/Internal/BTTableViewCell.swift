@@ -25,8 +25,10 @@ import UIKit
 
 class BTTableViewCell: UITableViewCell {
     let checkmarkIconWidth: CGFloat = 50
+    var cellImageWidth: CGFloat = 0
     let horizontalMargin: CGFloat = 20
-    
+
+    var cellImage: UIImageView!
     var checkmarkIcon: UIImageView!
     var cellContentFrame: CGRect!
     var configuration: BTConfiguration!
@@ -43,14 +45,30 @@ class BTTableViewCell: UITableViewCell {
         self.textLabel!.textColor = self.configuration.cellTextLabelColor
         self.textLabel!.font = self.configuration.cellTextLabelFont
         self.textLabel!.textAlignment = self.configuration.cellTextLabelAlignment
+
+        // image
+        if let image = configuration.cellImage {
+            cellImageWidth = 60
+            if self.textLabel!.textAlignment == .center {
+                self.cellImage = UIImageView(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 30)/2, width: 40, height: 40))
+            } else if self.textLabel!.textAlignment == .left {
+                self.cellImage = UIImageView(frame: CGRect(x: horizontalMargin, y: (cellContentFrame.height - 30)/2, width: 40, height: 40))
+            } else {
+                self.cellImage = UIImageView(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 30)/2, width: 40, height: 40))
+            }
+            self.cellImage.image = image
+            self.cellImage.contentMode = UIView.ContentMode.scaleAspectFill
+            self.contentView.addSubview(self.cellImage)
+        }
+
         if self.textLabel!.textAlignment == .center {
             self.textLabel!.frame = CGRect(x: 0, y: 0, width: cellContentFrame.width, height: cellContentFrame.height)
         } else if self.textLabel!.textAlignment == .left {
-            self.textLabel!.frame = CGRect(x: horizontalMargin, y: 0, width: cellContentFrame.width, height: cellContentFrame.height)
+            self.textLabel!.frame = CGRect(x: horizontalMargin + cellImageWidth, y: 0, width: cellContentFrame.width, height: cellContentFrame.height)
         } else {
             self.textLabel!.frame = CGRect(x: -horizontalMargin, y: 0, width: cellContentFrame.width, height: cellContentFrame.height)
         }
-        
+
         // Checkmark icon
         if self.textLabel!.textAlignment == .center {
             self.checkmarkIcon = UIImageView(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 30)/2, width: 30, height: 30))
