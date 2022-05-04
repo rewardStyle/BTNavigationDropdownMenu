@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
 options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1651703447, 387586116]
-build_end_time: [1651703447, 763694047]
+build_start_time: [1651702112, 371974945]
+build_end_time: [1651702116, 39963006]
 inputs:
   "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/BTNavigationDropdownMenu.swift": [1651701612, 137511253]
   "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/BTTitle.swift": [1651678420, 415993690]

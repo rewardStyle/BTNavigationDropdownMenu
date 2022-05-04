@@ -21,6 +21,7 @@
 		C254712728231C7900A6FED8 /* ImageViewWithCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254712628231C7900A6FED8 /* ImageViewWithCaching.swift */; };
 		C254712928231D0300A6FED8 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254712828231D0300A6FED8 /* Dependency.swift */; };
 		C254712B28231D1A00A6FED8 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254712A28231D1A00A6FED8 /* Cache.swift */; };
+		C258C6532823379D008DC432 /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C258C6522823379D008DC432 /* BTNavigationDropdownMenu.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		C254712628231C7900A6FED8 /* ImageViewWithCaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewWithCaching.swift; sourceTree = "<group>"; };
 		C254712828231D0300A6FED8 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
 		C254712A28231D1A00A6FED8 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		C258C6522823379D008DC432 /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		C254711028231C6700A6FED8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C258C6522823379D008DC432 /* BTNavigationDropdownMenu.bundle */,
 				C254711128231C6700A6FED8 /* BTNavigationDropdownMenu */,
 			);
 			path = Sources;
@@ -191,6 +194,7 @@
 				AA8E37DE21830B69009609E6 /* Demo.png in Resources */,
 				AA8E37DF21830B69009609E6 /* BTNavigationDropdownLogo.png in Resources */,
 				AA8E37E021830B69009609E6 /* Demo.gif in Resources */,
+				C258C6532823379D008DC432 /* BTNavigationDropdownMenu.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
