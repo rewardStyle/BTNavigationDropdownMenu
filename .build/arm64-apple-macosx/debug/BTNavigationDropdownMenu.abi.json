@@ -1,0 +1,353 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BTTitle",
+      "printedName": "BTTitle",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "title",
+          "printedName": "title",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(BTNavigationDropdownMenu.BTTitle.Type) -> (Swift.String) -> BTNavigationDropdownMenu.BTTitle",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.String) -> BTNavigationDropdownMenu.BTTitle",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "BTTitle",
+                      "printedName": "BTNavigationDropdownMenu.BTTitle",
+                      "usr": "s:24BTNavigationDropdownMenu7BTTitleO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "BTNavigationDropdownMenu.BTTitle.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "BTTitle",
+                      "printedName": "BTNavigationDropdownMenu.BTTitle",
+                      "usr": "s:24BTNavigationDropdownMenu7BTTitleO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:24BTNavigationDropdownMenu7BTTitleO5titleyACSScACmF",
+          "mangledName": "$s24BTNavigationDropdownMenu7BTTitleO5titleyACSScACmF",
+          "moduleName": "BTNavigationDropdownMenu",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "index",
+          "printedName": "index",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(BTNavigationDropdownMenu.BTTitle.Type) -> (Swift.Int) -> BTNavigationDropdownMenu.BTTitle",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.Int) -> BTNavigationDropdownMenu.BTTitle",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "BTTitle",
+                      "printedName": "BTNavigationDropdownMenu.BTTitle",
+                      "usr": "s:24BTNavigationDropdownMenu7BTTitleO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "BTNavigationDropdownMenu.BTTitle.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "BTTitle",
+                      "printedName": "BTNavigationDropdownMenu.BTTitle",
+                      "usr": "s:24BTNavigationDropdownMenu7BTTitleO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:24BTNavigationDropdownMenu7BTTitleO5indexyACSicACmF",
+          "mangledName": "$s24BTNavigationDropdownMenu7BTTitleO5indexyACSicACmF",
+          "moduleName": "BTNavigationDropdownMenu",
+          "fixedbinaryorder": 1
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:24BTNavigationDropdownMenu7BTTitleO",
+      "mangledName": "$s24BTNavigationDropdownMenu7BTTitleO",
+      "moduleName": "BTNavigationDropdownMenu",
+      "isEnumExhaustive": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTNavigationDropdownMenu"
+    }
+  ],
+  "json_format_version": 6
+}

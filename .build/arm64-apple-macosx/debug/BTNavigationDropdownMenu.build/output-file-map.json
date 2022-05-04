@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/master.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/BTNavigationDropdownMenu.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/BTNavigationDropdownMenu.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/BTNavigationDropdownMenu.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/BTNavigationDropdownMenu~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/BTNavigationDropdownMenu.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/BTTitle.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/BTTitle.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/BTTitle.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/BTTitle~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/BTTitle.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Extension/UIView+Extension.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Extension/UIView+Extension.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Extension/UIView+Extension.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Extension/UIView+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Extension/UIView+Extension.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Extension/UIViewController+Extension.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Extension/UIViewController+Extension.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Extension/UIViewController+Extension.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Extension/UIViewController+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Extension/UIViewController+Extension.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/BTConfiguration.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTConfiguration.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTConfiguration.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTConfiguration.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/BTTableCellContentView.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableCellContentView.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableCellContentView.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableCellContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableCellContentView.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/BTTableView.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableView.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableView.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableView~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableView.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/BTTableViewCell.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableViewCell.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableViewCell.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableViewCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/BTTableViewCell.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/Cache.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/Cache.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/Cache.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/Cache~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/Cache.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/Dependency.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/Dependency.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/Dependency.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/Dependency~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/Dependency.swiftdeps"
+  },
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/ImageViewWithCaching.swift": {
+    "dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/ImageViewWithCaching.d",
+    "object": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/ImageViewWithCaching.swift.o",
+    "swiftmodule": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/ImageViewWithCaching~partial.swiftmodule",
+    "swift-dependencies": "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/.build/arm64-apple-macosx/debug/BTNavigationDropdownMenu.build/Internal/ImageViewWithCaching.swiftdeps"
+  }
+}
