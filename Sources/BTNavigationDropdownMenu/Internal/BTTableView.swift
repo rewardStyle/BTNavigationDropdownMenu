@@ -32,15 +32,18 @@ class BTTableView: UITableView, UITableViewDelegate, UITableViewDataSource {
 
     // Private properties
     var items: [String] = []
+    var imageUrls: [String] = []
+
     var selectedIndexPath: Int?
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    init(frame: CGRect, items: [String], title: String, configuration: BTConfiguration) {
+    init(frame: CGRect, items: [String], imageUrls: [String], title: String, configuration: BTConfiguration) {
         super.init(frame: frame, style: UITableView.Style.plain)
 
+        self.imageUrls = imageUrls
         self.items = items
         self.selectedIndexPath = items.firstIndex(of: title)
         self.configuration = configuration
@@ -78,6 +81,10 @@ class BTTableView: UITableView, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = BTTableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "Cell", configuration: self.configuration)
         cell.textLabel?.text = self.items[(indexPath as NSIndexPath).row]
+        if indexPath.row < imageUrls.count {
+            let urlString = self.imageUrls[indexPath.row]
+            cell.cellImage.imageForUrl(urlString, placeholder: nil)
+        }
         cell.checkmarkIcon.isHidden = ((indexPath as NSIndexPath).row == selectedIndexPath) ? false : true
         return cell
     }

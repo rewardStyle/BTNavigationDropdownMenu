@@ -29,7 +29,7 @@ class BTTableViewCell: UITableViewCell {
     var cellImageWidth: CGFloat = 0
     let horizontalMargin: CGFloat = 20
 
-    var cellImage: UIImageView!
+    var cellImage: ImageViewWithCaching!
     var checkmarkIcon: UIImageView!
     var cellContentFrame: CGRect!
     var configuration: BTConfiguration!
@@ -51,11 +51,11 @@ class BTTableViewCell: UITableViewCell {
         if let image = configuration.cellImage {
             cellImageWidth = 60
             if self.textLabel!.textAlignment == .center {
-                self.cellImage = UIImageView(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 30)/2, width: 40, height: 40))
+                self.cellImage = ImageViewWithCaching(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 30)/2, width: 40, height: 40))
             } else if self.textLabel!.textAlignment == .left {
-                self.cellImage = UIImageView(frame: CGRect(x: horizontalMargin, y: (cellContentFrame.height - 30)/2, width: 40, height: 40))
+                self.cellImage = ImageViewWithCaching(frame: CGRect(x: horizontalMargin, y: (cellContentFrame.height - 30)/2, width: 40, height: 40))
             } else {
-                self.cellImage = UIImageView(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 30)/2, width: 40, height: 40))
+                self.cellImage = ImageViewWithCaching(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 30)/2, width: 40, height: 40))
             }
             self.cellImage.image = image
             self.cellImage.contentMode = UIView.ContentMode.scaleAspectFill
