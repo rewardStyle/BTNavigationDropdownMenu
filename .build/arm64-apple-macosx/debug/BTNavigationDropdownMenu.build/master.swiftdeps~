@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1651702112, 371974945]
+build_end_time: [1651702116, 39963006]
+inputs:
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/BTNavigationDropdownMenu.swift": [1651701612, 137511253]
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/BTTitle.swift": [1651678420, 415993690]
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Extension/UIView+Extension.swift": [1651686914, 779879570]
+  ? "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Extension/UIViewController+Extension.swift"
+  : [1651686999, 314095497]
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/BTConfiguration.swift": [1651701476, 310758113]
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/BTTableCellContentView.swift": [1651687027, 347345352]
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/BTTableView.swift": [1651701118, 953105926]
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/BTTableViewCell.swift": [1651701118, 969496488]
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/Cache.swift": [1651697087, 274813652]
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/Dependency.swift": [1651697087, 294139862]
+  "/Users/danielbaldwin/Desktop/BTNavigationDropdownMenu/Sources/BTNavigationDropdownMenu/Internal/ImageViewWithCaching.swift": [1651697405, 87193012]
