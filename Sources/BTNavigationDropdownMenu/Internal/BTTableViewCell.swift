@@ -29,7 +29,7 @@ class BTTableViewCell: UITableViewCell {
     var cellImageWidth: CGFloat = 0
     let horizontalMargin: CGFloat = 20
 
-    var cellImage: ImageViewWithCaching!
+    var cellImage: UIImageView!
     var checkmarkIcon: UIImageView!
     var cellContentFrame: CGRect!
     var configuration: BTConfiguration!
@@ -51,11 +51,11 @@ class BTTableViewCell: UITableViewCell {
         if configuration.hasCellImage {
             cellImageWidth = 60
             if self.textLabel!.textAlignment == .center {
-                self.cellImage = ImageViewWithCaching(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 40)/2, width: 40, height: 40))
+                self.cellImage = UIImageView(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 40)/2, width: 40, height: 40))
             } else if self.textLabel!.textAlignment == .left {
-                self.cellImage = ImageViewWithCaching(frame: CGRect(x: horizontalMargin, y: (cellContentFrame.height - 40)/2, width: 40, height: 40))
+                self.cellImage = UIImageView(frame: CGRect(x: horizontalMargin, y: (cellContentFrame.height - 40)/2, width: 40, height: 40))
             } else {
-                self.cellImage = ImageViewWithCaching(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 40)/2, width: 40, height: 40))
+                self.cellImage = UIImageView(frame: CGRect(x: cellContentFrame.width - checkmarkIconWidth, y: (cellContentFrame.height - 40)/2, width: 40, height: 40))
             }
             self.cellImage.backgroundColor = UIColor(red: 250/255, green: 250/255, blue: 250/255, alpha: 1)
             self.cellImage.layer.cornerRadius = CGFloat(40/2)

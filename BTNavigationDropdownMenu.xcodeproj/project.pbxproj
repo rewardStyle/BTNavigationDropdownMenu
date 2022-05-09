@@ -151,6 +151,8 @@
 			dependencies = (
 			);
 			name = BTNavigationDropdownMenu;
+			packageProductDependencies = (
+			);
 			productName = BTNavigationDropdownMenu;
 			productReference = AA07A5972182FC7000C097DD /* BTNavigationDropdownMenu.framework */;
 			productType = "com.apple.product-type.framework";
@@ -177,6 +179,8 @@
 				en,
 			);
 			mainGroup = AA07A58D2182FC7000C097DD;
+			packageReferences = (
+			);
 			productRefGroup = AA07A5982182FC7000C097DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

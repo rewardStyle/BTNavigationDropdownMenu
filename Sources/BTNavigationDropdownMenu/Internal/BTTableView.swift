@@ -23,6 +23,7 @@
 
 #if canImport(UIKit)
 import UIKit
+import Kingfisher
 
 class BTTableView: UITableView, UITableViewDelegate, UITableViewDataSource {
 
@@ -53,7 +54,6 @@ class BTTableView: UITableView, UITableViewDelegate, UITableViewDataSource {
         self.dataSource = self
         self.backgroundColor = UIColor.clear
         self.separatorStyle = UITableViewCell.SeparatorStyle.none
-        //        self.separatorEffect = UIBlurEffect(style: .Light)
         self.autoresizingMask = UIView.AutoresizingMask.flexibleWidth
         self.tableFooterView = UIView(frame: CGRect.zero)
     }
@@ -83,7 +83,8 @@ class BTTableView: UITableView, UITableViewDelegate, UITableViewDataSource {
         cell.textLabel?.text = self.items[(indexPath as NSIndexPath).row]
         if indexPath.row < imageUrls.count {
             let urlString = self.imageUrls[indexPath.row]
-            cell.cellImage.imageForUrl(urlString, placeholder: nil)
+            let url = URL(string: urlString)
+            cell.cellImage.kf.setImage(with: url)
         }
         cell.checkmarkIcon.isHidden = ((indexPath as NSIndexPath).row == selectedIndexPath) ? false : true
         return cell
